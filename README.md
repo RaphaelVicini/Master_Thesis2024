@@ -1,7 +1,6 @@
-# UGATIT-PyTorch
+# UGATIT-PyTorch and Augmented CycleGAN
 
-You can find here the model UGATIT pytorch used in this master thesis.
-The UGATIT model hhas been modified to correctly be adapted for my Master Thesis as a student et the ULB polytechnique school option biomedical.
+
 
 
 

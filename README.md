@@ -1,7 +1,7 @@
 # Master Thesis 2024 - Raphael Vicini
 ## Universal Synthetic-CT and Quality Assurance
 
-This GitHub repository consolidates all the code used for my Master's Thesis as a student in Biomedical Engineering at ULB Polytechnique. The source code originates from various GitHub repositories; please refer to the credits in the accompanying README.
+This GitHub repository consolidates all the code used for my Master's Thesis as a student in Biomedical Engineering at ULB Polytechnique. The source code originates from various GitHub repositories; please refer to the credits in the accompanying README in UGATIT_PYTORCH folder and AUGMENTED_CYCLEGAN folder.
 
 ### Modifications and Purpose
 The code has been  modified to meet the specific requirements of my thesis. These modifications aim to enhance radiotherapy treatment by integrating an MRI-only workflow, thereby reducing patient exposure to CT scans traditionally used in radiotherapy. Essentially, this approach eliminates the need for registration between CT and MRI images, streamlining the treatment process.

@@ -1,36 +1,16 @@
-# UGATIT-PyTorch and Augmented CycleGAN
+# Master Thesis 2024 - Raphael Vicini
+## Universal Synthetic-CT and Quality Assurance
+
+This GitHub repository consolidates all the code used for my Master's Thesis as a student in Biomedical Engineering at ULB Polytechnique. The source code originates from various GitHub repositories; please refer to the credits in the accompanying README.
+
+### Modifications and Purpose
+The code has been  modified to meet the specific requirements of my thesis. These modifications aim to enhance radiotherapy treatment by integrating an MRI-only workflow, thereby reducing patient exposure to CT scans traditionally used in radiotherapy. Essentially, this approach eliminates the need for registration between CT and MRI images, streamlining the treatment process.
+
+### Thesis Objective
+The primary goal of my Master's Thesis is to enhance radiotherapy treatment protocols by leveraging MRI-only workflows. This method not only protects patients from the harmful effects of unnecessary CT scans but also simplifies the treatment process by removing the complex registration steps between CT and MRI scans.
+
+### Contributions and Use
+This repository is intended for academic and research purposes. I welcome contributions and feedback to further refine and expand the functionalities of the implemented models.
 
 
 
-
-
-
-### Credit
-
-#### U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation
-
-_Junho Kim, Minjae Kim, Hyeonwoo Kang, Kwanghee Lee_ <br>
-
-**Abstract** <br>
-We propose a novel method for unsupervised image-to-image translation, which incorporates a new attention module 
-and a new learnable normalization function in an end-to-end manner. The attention module guides our model to focus 
-on more important regions distinguishing between source and target domains based on the attention map obtained 
-by the auxiliary classifier. Unlike previous attention-based methods which cannot handle the geometric changes 
-between domains, our model can translate both images requiring holistic changes and images requiring large shape 
-changes. Moreover, our new AdaLIN (Adaptive Layer-Instance Normalization) function helps our attention-guided 
-model to flexibly control the amount of change in shape and texture by learned parameters depending on datasets. 
-Experimental results show the superiority of the proposed method compared to the existing state-of-the-art 
-models with a fixed network architecture and hyper-parameters.
-
-[[Paper]](https://arxiv.org/pdf/1907.10830) [[Authors' Implementation (TensorFlow)]](https://github.com/taki0112/UGATIT) [[Authors' Implementation (PyTorch)]](https://github.com/znxlwm/UGATIT-pytorch) 
-
-```
-@inproceedings{
-    Kim2020U-GAT-IT:,
-    title={U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation},
-    author={Junho Kim and Minjae Kim and Hyeonwoo Kang and Kwang Hee Lee},
-    booktitle={International Conference on Learning Representations},
-    year={2020},
-    url={https://openreview.net/forum?id=BJlZ5ySKPH}
-}
-```
